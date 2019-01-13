@@ -31,7 +31,7 @@ namespace BlogTestEF.Controllers
         // GET: Blog/Create
         public ActionResult Create()
         {
-            return View();
+            return View(new Blog());
         }
 
         // POST: Blog/Create
